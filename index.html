@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header class="heading">
+        <div class="title">Portfolio</div>
+
+        <nav class="navbar">
+            <ul class="list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+
+            <div class="headbotton" onclick="location.href='#contact'">Contact</div>
+        </nav>
+    </header>
+
+    <section class="homepage" id="home">
+        <div class="home-content">
+            <span class="pic">M</span>
+            <span>Mayank Raj</span>
+            <span>I am an engineering student learning web development.</span>
+            <span>
+                I'm an engineering student from MANIT Bhopal, currently pursuing Civil Engineering.
+                I’m interested in web development, video editing, and other creative & technical areas.
+            </span>
+            <button onclick="location.href='#projects'">My Projects</button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="bio about-box">
+            <div>About me</div>
+            <span>
+                Mayank Raj — Engineering undergraduate with a strong interest in coding,
+                web development, and technology. Focused on learning, building, and improving through projects.
+            </span>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skilldis">
+            <h2>My Current Skills</h2>
+            <span>
+                These are the skills I’m currently comfortable with and continuously improving.
+            </span>
+        </div>
+
+        <div class="skill-details">
+            <div class="boxs1">
+                <div class="logic skill-box">
+                    <div>Logic & Problem Solving</div>
+                    <span>Improving problem-solving through consistent practice.</span>
+                    <ul>
+                        <li>Basic Data Structures</li>
+                        <li>Algorithmic Thinking</li>
+                        <li>Logical Reasoning</li>
+                        <li>Debugging Basics</li>
+                    </ul>
+                </div>
+
+                <div class="tool skill-box">
+                    <div>Tools & Technologies</div>
+                    <span>Tools I use for development and collaboration.</span>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Browser DevTools</li>
+                        <li>npm</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="boxs2">
+                <div class="webdev skill-box">
+                    <div>Web Development</div>
+                    <span>Front-end focused, learning back-end basics.</span>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Express.js (learning)</li>
+                        <li>MongoDB (learning)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proj-sec" id="projects">
+        <div class="title-proj">My Projects</div>
+
+        <div class="projects">
+            <div class="pj-box">
+                <div>CyberShield</div>
+                <span>
+                    Front-end project made for Noobathon to spread cyber awareness.
+                </span>
+                <button onclick="location.href='https://mayank-raj11419.github.io/noobathon-project/'">
+                    View Project
+                </button>
+            </div>
+
+            <div class="pj-box">
+                <div>Name Generator</div>
+                <span>
+                    Random name generator capable of producing 27 combinations.
+                </span>
+                <button onclick="location.href='https://mayank-raj11419.github.io/name-genarator/'">
+                    View Project
+                </button>
+            </div>
+
+            <div class="pj-box">
+                <div>Basic Calculator</div>
+                <span>
+                    Calculator built to practice JavaScript fundamentals.
+                </span>
+                <button onclick="location.href='https://mayank-raj11419.github.io/calculator/'">
+                    View Project
+                </button>
+            </div>
+        </div>
+
+        <button class="all-projects-btn"
+            onclick="location.href='https://github.com/Mayank-raj11419?tab=repositories'">
+            See All Projects
+        </button>
+    </section>
+
+    <section class="end" id="contact">
+        <div>CONTACT</div>
+        <div class="contact">
+            <span>Email: mayankraj11419@gmail.com</span>
+            <a href="https://github.com/Mayank-raj11419">GitHub</a>
+            <a href="#" aria-disabled="true">Instagram (soon)</a>
+            <a href="https://youtube.com/@asterion_editz">YouTube</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="foot-content">
+            <span>
+                Mayank Raj <br>
+                Engineering Student • Web Developer
+            </span>
+        </div>
+        <span class="last">© 2026 Mayank Raj</span>
+    </footer>
+
+    <button id="scrollTopBtn">↑</button>
+
+    <script src="app.js"></script>
+</body>
+</html>
